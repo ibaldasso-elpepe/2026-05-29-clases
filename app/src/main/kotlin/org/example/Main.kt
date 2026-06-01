@@ -3,11 +3,8 @@
  */
 package org.example
 
-import org.example.app.Fecha
-
-
-fun main() {
-
-    val miFecha= Fecha("2026","05",29)
-    println (miFecha)
+import org.example.app.App
+fun main(){
+    val appInstance = App()
+    val r=appInstance.miembro()
 }
